@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #EEE;
+}
+#comentarios, article{
+	background: white;
+}
+.redes > i{
+	transition: font-size, 0.5s;
+}
+.redes > i:hover{
+	font-size: 4rem;
+}
+.fotos>.col{
+	padding: 0;
+}
+.foto{
+	transition: padding,1s;
+}
+.foto:hover{
+	padding: 0
+}
+article{
+	margin-bottom: 30px
+}
+article img{
+	margin: 15px 10px 5px 0px;
+	border: 5px solid white;
+}
+#comentarios{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.input-field .prefix.active, .input-field label.active{
+	color: #F44336;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #F44336;
+    -webkit-box-shadow: 0 1px 0 0 #F44336;
+    box-shadow: 0 1px 0 0 #F44336;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #F44336;
+}
+.sub{
+	color: white;
+	background: #F44336;
+	border-radius: 2rem;
+	padding: 10px 10px;
+	font-size: 14px;
+}
