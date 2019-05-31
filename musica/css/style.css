@@ -47,3 +47,17 @@ textarea{
 a{
 	color: #272727 !important;
 }
+.nav .open>a{
+	color: white !important;
+	background: #337AB7 !important; 
+}
+.nav>li>a:hover{
+	color: white !important;
+	background: #337AB7 !important; 
+}
+.btn{
+	margin-top: 10px;
+}
+.container{	
+	background: #e2ecee;
+}
