@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	color: #272727;
+}
+#header{
+	background: #337ab782;
+	min-height: 200px;
+}
+.nav>li{
+	padding-right: 0 !important;
+}
+.foto-banda-left{
+	float: left;
+	margin: 5px;
+	max-height: 200px;
+}
+.foto-banda-right{
+	float: right;
+	margin: 5px;
+	max-height: 200px;
+}
+article{
+	text-align: justify;
+	transition: opacity 0.5s;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px){
+	img[class *= "foto-banda-"]{
+		width: 100%;
+		max-height: 100%;
+	}
+}
+#main{
+	margin: 10px 0;
+}
+.todos{
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #777777;
+	color: white;
+}
+textarea{
+	resize: none;
+}
+a{
+	color: #272727 !important;
+}
