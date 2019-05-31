@@ -1,0 +1,66 @@
+@font-face{
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans-Regular.otf);
+}
+body{
+	font-family: OpenSans;
+	background: url("../img/milanesa_napolitana.jpg");
+}
+.paginas{
+	background-color: #0f4d76;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 2em;	
+	padding-left: 1em;
+}
+.titulo{
+	background-color: #1779ba;
+	color: white;
+	box-shadow: -2px -1px 12px -2px #2d2d2d;
+}
+.titulo > h2{
+	font-family: OpenSans !important;
+}
+.titulo-contenedor{
+	padding: 5px;
+	background-color: #37a0e6;
+}
+.cuerpo{
+	padding: 20px;
+}
+.contenedor{
+	background-color: #0f4d76;
+}
+
+aside{
+	background: white;
+}
+.menu .active{
+	font-weight: bold;
+}
+ul>li>a{
+	transition: background-color, color;
+	transition-duration: .5s;
+}
+ul>li>a:hover{
+	background-color: #37a0e6;
+	color: white
+}
+
+article{
+	color: #0f4d76;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+a.thumbnail{
+	margin: 5px 5px 1rem 5px
+}
+h4{
+	margin-left: 15px;
+}
+li.float-left>a{
+	padding: 0.7rem !important;
+}
